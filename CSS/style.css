@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rokkitt', serif;
+    font-family: 'Khand', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(65, 102, 65);
+    padding:5px;
+}
+
+
+.heroimg{
+    height: 400px;
+    padding-top:70px;
+    display: inline-block;
+    margin-right: 240px;
+    margin-left: 240px;
+    
+}
+
+.content{
+    height:380px;
+    width: 380px;
+}
+
+
+#subHeading{
+    font-family: rokkitt;
+    padding-left:10px;
+    font-size: 26px;
+    font-weight:bold;
+}
+
+.right{
+  display: flex;
+  justify-content:center;
+  align-items: right;
+}
+.right a {
+    font-family:rokkitt;
+    font-size: 36px;
+    font-size: 26px;
+    padding: 45px;
+    padding-top:30px;
+    width: 60%;
+    position:inherit;
+    text-decoration: none;
+    color:white;
+}
+
+
+.row{
+    column-count: 3;
+}
+.column1{
+    float:inline-start;
+    font-family: khand;
+    padding: 15px;
+    width: 40%;
+    justify-content:space-evenly;
+    align-items:flex-start;
+}
+.column2{
+    position:center;
+    font-family: khand;
+    padding: 15px;
+    width: 40%;
+    justify-content:right;
+    align-items:center;
+}
+.column3{
+    float:inline-start;
+    font-family: khand;
+    padding: 15px;
+    width: 40%;
+    justify-content:space-evenly;
+    align-items:flex-end;
+}
+#categoryGrid {
+    margin: 50px 5%;
+    display:flex;
+}
+
+.heading{
+    display:flex;
+    justify-items: end;
+}
+#playItForward{
+    grid-area: playItForward;
+    background-image: url("../Images/Group\ 3.png");
+    background-repeat: no-repeat;
+    background-position:inherit;
+}
+
+#Melomaniac{
+    grid-area: Melomaniac;
+    background-image: url("../Images/Group\ 4.png");
+    background-repeat: no-repeat;
+    background-position:inherit;
+}
+
+.categoryGridArea {
+    background-position:left;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+    display: grid;
+    align-content: inherit;
+    height:250px;
+    width:250px;
+  }
+
+
+  #footer{
+    background-color:rgb(65, 102, 65);
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  
