@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(248, 236, 213);
     
 }
 h1,h2,h3,h4,h5,h6{
@@ -12,17 +13,15 @@ h1,h2,h3,h4,h5,h6{
     justify-content: space-between;
     align-items: center;
     background-color:rgb(65, 102, 65);
-    padding:5px;
+    
 }
 
 
-.heroimg{
+.card mb-3{
     height: 400px;
-    padding-top:70px;
-    display: inline-block;
-    margin-right: 70px;
-    margin-left: 70px;
-    
+    padding-top:150px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .content{
