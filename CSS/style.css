@@ -20,8 +20,8 @@ h1,h2,h3,h4,h5,h6{
     height: 400px;
     padding-top:70px;
     display: inline-block;
-    margin-right: 240px;
-    margin-left: 240px;
+    margin-right: 70px;
+    margin-left: 70px;
     
 }
 
@@ -36,6 +36,8 @@ h1,h2,h3,h4,h5,h6{
     padding-left:10px;
     font-size: 26px;
     font-weight:bold;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .right{
@@ -117,14 +119,20 @@ h1,h2,h3,h4,h5,h6{
     width:250px;
   }
 
-
   #footer{
     background-color:rgb(65, 102, 65);
     padding:20px;
     display:flex;
     flex-direction: column;
     align-items: center;
-
   }
 
-  
+  .container{
+      margin-right: 60px;
+      margin-left: 60px;
+  }
+
+  .MY WORK{
+    margin-right: 60px;
+    margin-left: 60px; 
+  }
